@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>로그인 페이지</title>
+    </head>
+
+    <body>
+        <!--표를 만들어주는 태그
+        tr : 행 td : 열 th : 제목 border : 두께 
+        colspan : 사용할 열의 갯수-->
+          
+        <form>
+            <table border="1">
+                <tr>
+                    <th colspan="2"><font style="color:white;font size: 150%">LOGIN</font></th>
+                </tr>
+                <tr>
+                    <th>ID</th><td class="input"><input type="text" name="user_id" style= border:"0" style="background-color: skyblue"></td>
+                </tr>
+                <tr>
+                    <th>PASSWORD</th><td class="input"><input type="password" name="user_pw" style="border: 0"></td>
+                </tr>
+            </table>
+            <input type="submit" value="로그인">
+            <input type="reset" value="취소">
+        </form>
+    </body>
+</html>

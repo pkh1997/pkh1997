@@ -4,28 +4,50 @@
 <!-- 이것이 주석-->
     <head>
         <!-- 관련 설정-->
-        <body id="aaa">
-            
-        </body>
+        <body id="aaa"></body>
+        <!-- java script-->
+        <script type="text/javascript">
+            function message()
+            {
+                alert("파란색 댕댕이")
+            }
+        </script>
         <title>파댕이 사이트</title>
+        <!--css style 지정-->
+        <link rel="stylesheet" href="style_contents.css" type="text/css">
     </head>
 <style>
     #aaa {
         background-image:url(index.jpg);
         background-repeat : no-repeat;
-        background-position : 50% 50%;
+        background-position : 50% 45%;
+        background-size : 50%;
     }
 </style>
-<body><center>
+<body onload="message()">
     <!-- 실제 표시되는 부분-->
-    <h1>파란댕댕이</h1>
-</center>
+    <iframe src="head.html" id="bodyframe" name="body" Width="100%" frameborder="0"></iframe>
+    <center><h1>파란댕댕이</h1></center>
+    <p style="color: blue;font-size: 24px;font-family: '맑은고딕' ">
     ㅋㅋㅎㅇ<br>
+    </p>
+    <div id="main_contents" class="contents">
     파댕이 사이트 입니다<br>
     파란댕댕이 입니다<br>
     ㅋㅋ<br>
     귀엽습니다<br>
+    </div>
+    <pre>
+                                                                                        ㅋㅋㄹㅃㅃ        </pre>
     할말이없습니다<br>
+    <font color="#323232" size="4">
     수고링<br>
-</body>
+    </font>
+    <a href="https://smartstore.naver.com/ptsstore/products/4523262650" target="_blank" >사주세여 ㅎㅎ</a> 
+    <a href="https://smartstore.naver.com/ptsstore/products/4523262650" target="_self" >사주세여 ㅎㅎ</a>    
+    <br>
+    <br>
+    <br>
+    <img src="images/test1.jpg"></img>
+    </body>
 </html>
